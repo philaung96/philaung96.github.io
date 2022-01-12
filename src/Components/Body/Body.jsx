@@ -1,4 +1,4 @@
-import './Body'
+import './Body.css'
 import {Routes, Route} from 'react-router-dom'
 import Home from './Home/Home';
 import About from './About/About';
