@@ -1,7 +1,7 @@
-import './Resume.css'
+import './Resume.css';
 
 const Resume = () => {
-    return <div id='resume'>Resume</div>
-}
+    return <div id='resume'>Resume</div>;
+};
 
-export default Resume
+export default Resume;

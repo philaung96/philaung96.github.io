@@ -1,9 +1,7 @@
-import './Projects.css'
+import './Projects.css';
 
 const Projects = () => {
-    return <div id='projects'>
-        Projects
-    </div>
-}
+    return <div id='projects'>Projects</div>;
+};
 
-export default Projects
+export default Projects;

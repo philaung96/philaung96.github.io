@@ -1,9 +1,7 @@
-import './Header'
+import './Header.css';
 
-const Header = () => {
-    return <header>
-        Header
-    </header>
-}
+const Header = (props) => {
+    return <header>Header</header>;
+};
 
 export default Header;

@@ -1,13 +1,15 @@
-.App {
-  text-align: center;
-  color: white;
+body {
+    background: linear-gradient(315deg, #000000 0%, #020113 74%);
+    text-align: center;
+    color: white;
 }
 
 a {
-  text-decoration: none;
-  color: red;
+    text-decoration: none;
+    color: red;
 }
 
-a:hover, button:hover {
-  cursor: pointer;
+a:hover,
+button:hover {
+    cursor: pointer;
 }

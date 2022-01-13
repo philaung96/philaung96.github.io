@@ -1,22 +1,29 @@
-import './Home.css'
-import { Link } from 'react-router-dom'
+import './Home.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     const shootingStarsJsx = (num) => {
-        return [...Array(num)].map(item => <span class='shooting_star'></span>)
-    }
-    return <main>
-        <section class='night'>
-            {shootingStarsJsx(10)}
-        </section>
-        <div id='info'>
-            <h1>PHIL AUNG</h1>
-            <p>Full Stack Developer</p>
-            <Link to='/projects'>
-                <button id='projects-link'>PROJECTS</button>
-            </Link>
-        </div>
-    </main>
-}
+        return [...Array(num)].map((item, i) => (
+            <span className='shooting_star' key={i}></span>
+        ));
+    };
+    return (
+        <main>
+            <section id='space'>
+                <div className='star'></div>
+            </section>
+            <section className='night'>{shootingStarsJsx(10)}</section>
+            <div id='home-info'>
+                <h1>Phil Aung</h1>
+                <p>Full Stack Developer</p>
+                <Link to='/projects'>
+                    <button id='projects-link'>
+                        <p>projects</p>
+                    </button>
+                </Link>
+            </div>
+        </main>
+    );
+};
 
-export default Home
+export default Home;
