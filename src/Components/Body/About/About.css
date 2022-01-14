@@ -1,0 +1,19 @@
+#about {
+    margin: 10vh 5vh;
+}
+
+#about p {
+    text-align: left;
+    font-variant: normal;
+}
+
+#avatar {
+    background-image: url('/media/avatar.jpg');
+    background-size: cover;
+    background-position: right;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border: 3px solid white;
+    border-radius: 50%;
+}

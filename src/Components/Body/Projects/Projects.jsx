@@ -3,6 +3,7 @@ import './Projects.css';
 const Projects = () => {
     return (
         <div id='projects'>
+            <h2>projects</h2>
             <section className='project'>
                 <h3 className='project-title'>2048</h3>
                 <div id='project-img-1' className='project-img'></div>

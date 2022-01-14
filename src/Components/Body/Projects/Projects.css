@@ -5,6 +5,10 @@
     margin: 5vh 0;
 }
 
+#projects h2, h3 {
+    margin: 0;
+}
+
 .project {
     margin: 3vh 0;
     z-index: 2;
