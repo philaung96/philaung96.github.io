@@ -1,0 +1,29 @@
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+}
+
+.project-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#project-img-1 {
+    background-image: url('/media/2048.png');
+}
+
+#project-img-2 {
+    background-image: url('/media/rick-and-morty.png');
+}
+
+#project-img-3 {
+    background-image: url('/media/todoList.png');
+}
