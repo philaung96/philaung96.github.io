@@ -7,6 +7,7 @@ const Home = () => {
         <main>
             <section id='home-info'>
                 <h1>Phil Aung</h1>
+                <div id='ufo'></div>
                 <p>Full Stack Developer</p>
                 <Link to='/projects'>
                     <button id='projects-link'>

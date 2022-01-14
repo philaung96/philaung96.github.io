@@ -7,12 +7,12 @@ const Background = () => {
         ));
     };
     return (
-        <>
+        <div id='background'>
             <section id='space'>
                 <div className='star'></div>
             </section>
-            <section className='night'>{shootingStarsJsx(10)}</section>
-        </>
+            <section className='night'>{shootingStarsJsx(5)}</section>
+        </div>
     );
 }
 
