@@ -1,7 +1,6 @@
 #home-info {
-    font-variant: small-caps;
     height: 20%;
-    margin: 150px 0 0 0;
+    margin: 30vh 0 0 0;
 }
 
 #home-info h1 {
@@ -11,6 +10,7 @@
     text-decoration-thickness: 5%;
     text-underline-offset: 5px;
     padding-bottom: 10px;
+    margin: 0;
 }
 
 #home-info p {

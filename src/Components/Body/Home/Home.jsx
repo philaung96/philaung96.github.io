@@ -13,7 +13,7 @@ const Home = () => {
                 <div className='star'></div>
             </section>
             <section className='night'>{shootingStarsJsx(10)}</section>
-            <div id='home-info'>
+            <section id='home-info'>
                 <h1>Phil Aung</h1>
                 <p>Full Stack Developer</p>
                 <Link to='/projects'>
@@ -21,7 +21,7 @@ const Home = () => {
                         <p>projects</p>
                     </button>
                 </Link>
-            </div>
+            </section>
         </main>
     );
 };

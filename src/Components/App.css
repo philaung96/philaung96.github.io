@@ -1,12 +1,15 @@
+html {
+    height: 100%;
+}
+
 body {
-    background: linear-gradient(315deg, #000000 0%, #020113 74%);
+    background: linear-gradient(315deg, #000000 0%, #03021d 74%);
     text-align: center;
     color: white;
 }
 
 a {
-    text-decoration: none;
-    color: red;
+    color: whitesmoke;
 }
 
 a:hover,
