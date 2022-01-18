@@ -14,7 +14,7 @@ const Projects = () => {
                             target={'_blank'}
                             rel='noreferrer'
                         >
-                            {'>'} DEMO
+                            DEMO {'>'}
                         </a>
                     </button>
                 </section>
@@ -46,7 +46,7 @@ const Projects = () => {
                             target={'_blank'}
                             rel='noreferrer'
                         >
-                            {'>'} DEMO
+                            DEMO {'>'}
                         </a>
                     </button>
                 </section>
@@ -73,7 +73,7 @@ const Projects = () => {
                             target={'_blank'}
                             rel='noreferrer'
                         >
-                            {'>'} DEMO
+                            DEMO {'>'}
                         </a>
                     </button>
                 </section>
@@ -85,11 +85,7 @@ const Projects = () => {
                     </p>
                     <p className='tools'>
                         <small>
-                            Tools :
-                            <i>
-                                {' '}
-                                HTML, CSS, JavaScript, Jquery.js
-                            </i>
+                            Tools :<i> HTML, CSS, JavaScript, Jquery.js</i>
                         </small>
                     </p>
                 </article>
