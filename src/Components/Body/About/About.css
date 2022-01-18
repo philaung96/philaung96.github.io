@@ -2,6 +2,11 @@
     margin: 10vh 5vh;
 }
 
+#about article {
+    border-bottom: 1px solid white;
+    padding: 2vh 0;
+}
+
 #about p {
     text-align: left;
     font-variant: normal;
@@ -16,4 +21,17 @@
     margin: 0 auto;
     border: 3px solid white;
     border-radius: 50%;
+}
+
+#contact-info p {
+    text-align: center;
+}
+
+#social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+#social-icons i {
+    margin: 0 10px;
 }
