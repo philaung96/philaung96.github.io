@@ -7,6 +7,9 @@ const Projects = () => {
             <section className='project'>
                 <h3 className='project-title'>2048</h3>
                 <div id='project-img-1' className='project-img'></div>
+                <article>
+                    <p>A clone 2048 game</p>
+                </article>
             </section>
             <section className='project'>
                 <h3 className='project-title'>Rick and Morty</h3>
