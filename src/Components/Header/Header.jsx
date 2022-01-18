@@ -11,17 +11,17 @@ const Header = (props) => {
             <nav>
                 <ul>
                     <Link to='/' element={<Home />}>
-                        <li>home</li>
+                        <li>HOME</li>
                     </Link>
                     <Link to='/projects' element={<Projects />}>
-                        <li>projects</li>
+                        <li>PROJECTS</li>
                     </Link>
                     <Link to='/about' element={<About />}>
-                        <li>about</li>
+                        <li>ABOUT</li>
                     </Link>
-                    <Link to='/resume' element={<Resume />}>
+                    {/* <Link to='/resume' element={<Resume />}>
                         <li>resume</li>
-                    </Link>
+                    </Link> */}
                 </ul>
             </nav>
         </header>
