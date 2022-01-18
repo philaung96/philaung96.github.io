@@ -1,9 +1,13 @@
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
 html {
     min-height: 100%;
     height: auto;
     background: linear-gradient(135deg, #000000 0%, #03021d 74%);
     background-size: cover;
-    text-align: center;
     color: white;
     margin: 0;
 }
@@ -14,12 +18,11 @@ body {
         'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-variant: small-caps;
+    margin: 0;
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-        monospace;
+h1, h2, h3, h4, h5 {
+    text-align: center;
 }
 
 a {
