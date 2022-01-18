@@ -4,9 +4,9 @@ const Projects = () => {
     return (
         <div id='projects'>
             <h2>PROJECTS</h2>
+            <h3 className='project-title'>2048</h3>
             <div className='project'>
                 <section>
-                    <h3 className='project-title'>2048</h3>
                     <div id='project-img-1' className='project-img'></div>
                     <button>
                         <a
@@ -36,9 +36,9 @@ const Projects = () => {
                     </p>
                 </article>
             </div>
+            <h3 className='project-title'>Rick and Morty</h3>
             <div className='project'>
                 <section>
-                    <h3 className='project-title'>Rick and Morty</h3>
                     <div id='project-img-2' className='project-img'></div>
                     <button>
                         <a
@@ -63,9 +63,9 @@ const Projects = () => {
                     </p>
                 </article>
             </div>
+            <h3 className='project-title'>To Do List</h3>
             <div className='project'>
                 <section>
-                    <h3 className='project-title'>To Do List</h3>
                     <div id='project-img-3' className='project-img'></div>
                     <button>
                         <a

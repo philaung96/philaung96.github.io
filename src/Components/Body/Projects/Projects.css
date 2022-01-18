@@ -5,19 +5,20 @@
     margin: 5vh 0;
 }
 
-#projects h2{
+#projects h2 {
     margin: 0;
 }
 
+#projects h3 {
+    margin: 5vh 0;
+}
+
 .project {
-    padding: 5vh 0;
+    padding-bottom: 5vh;
     z-index: 2;
     border-bottom: 1px solid white;
 }
 
-.project h3 {
-    margin: 2vh 0;
-}
 
 .project button {
     display: block;
@@ -35,7 +36,7 @@
 }
 
 .project article {
-    margin: 0 10%;
+    margin: 5% 10%;
 }
 
 .project-img {
@@ -63,4 +64,20 @@
 
 .tools {
     color: darkgray;
+}
+
+@media only screen and (min-width: 768px) {
+    .project {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .project:nth-of-type(even) article {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .project article {
+        margin: 0 10%;
+    }
 }
