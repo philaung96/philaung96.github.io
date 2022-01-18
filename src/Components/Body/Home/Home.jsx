@@ -10,11 +10,11 @@ const Home = () => {
                 <h1>Phil Aung</h1>
                 <div id='ufo'></div>
                 <p>Full Stack Developer</p>
-                <Link to='/projects'>
-                    <button id='projects-link'>
+                <button id='projects-link'>
+                    <Link to='/projects'>
                         <p>projects</p>
-                    </button>
-                </Link>
+                    </Link>
+                </button>
             </main>
         </>
     );

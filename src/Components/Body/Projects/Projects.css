@@ -22,20 +22,16 @@
 .project button {
     display: block;
     margin: 4vh auto 0 auto;
-    padding: 10px;
+    padding: 7px;
     background-color: #020231;
     border: 2px solid white;
     border-radius: 25px;
     box-shadow: 2px 5px rgb(133, 133, 133);
+    font-size: 12px;
 }
 
 .project button:hover {
     transform: scale(0.9);
-}
-
-.project a {
-    color: white;
-    text-decoration: none;
 }
 
 .project article {

@@ -19,19 +19,26 @@
     margin: 0;
 }
 
-#home-info a {
+#projects-link {
     position: relative;
+    background: transparent;
+    color: white;
+    margin: 50px;
+    padding: 0;
+    border: 2px solid rgb(173, 173, 173);
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px rgb(173, 173, 173);
     z-index: 2;
 }
 
-#projects-link {
-    background: transparent;
-    color: white;
-    padding: 5px 10px;
-    margin: 50px;
-    border: 2px solid white;
-    border-radius: 2px;
+#projects-link:hover {
+    transform: scale(1.1);
 }
+
+#projects-link p {
+    margin: 5px 10px;
+}
+
 
 #ufo {
     background-image: url('/media/ufo.png');
