@@ -6,7 +6,7 @@ const About = () => {
             <section>
                 <div id='avatar'></div>
                 <article>
-                    <h2>ABOUT</h2>
+                    <h2>ABOUT ME</h2>
                     <p>
                         Hello, my name is Phil Aung. I am a curious and fast
                         learning Burmese soul from LA. A software engineer with
@@ -23,10 +23,16 @@ const About = () => {
             <aside>
                 <article>
                     <h3>Tech Stack</h3>
-                    <p>Languages : C++, Java, Python, HTML, CSS, JavaScript</p>
                     <p>
-                        Frameworks : React.js, Express.js, MongoDB, Mongoose.js,
-                        Django.py
+                        Languages :{' '}
+                        <i>C++, Java, Python, HTML, CSS, JavaScript</i>
+                    </p>
+                    <p>
+                        Frameworks :{' '}
+                        <i>
+                            React.js, Express.js, MongoDB, Mongoose.js,
+                            Django.py
+                        </i>
                     </p>
                 </article>
                 <article id='contact-info'>
