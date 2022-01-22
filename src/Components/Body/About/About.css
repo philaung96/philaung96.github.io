@@ -2,6 +2,12 @@
     margin: 10vh 5vh;
 }
 
+#about h2{
+    text-decoration: underline;
+    text-decoration-thickness: 10%;
+    text-underline-offset: 5px;
+}
+
 #about article {
     border-bottom: 1px solid white;
     padding: 2vh 0;

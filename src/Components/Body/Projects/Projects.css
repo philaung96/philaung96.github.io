@@ -84,8 +84,14 @@
 
 @media only screen and (min-width: 1200px) {
     .project {
-        padding: 5vh 5vh 7vh 5vh;
+        padding: 0 5vh 7vh 5vh;
     }
+
+    .project-img {
+        width: 360px;
+        height: 240px;
+    }
+
     .project article {
         margin: 0 15vh;
     }
@@ -94,12 +100,17 @@
 
 @media only screen and (min-width: 1440px) {
     .project {
-        padding: 5vh 10vh 7vh 10vh;
+        padding: 0 10vh 7vh 10vh;
+    }
+
+    .project-img {
+        width: 390px;
+        height: 260px;
     }
 }
 
 @media only screen and (min-width: 1600px) {
     .project {
-        padding: 5vh 15vh 7vh 15vh;
+        padding: 0 15vh 7vh 15vh;
     }
 }
