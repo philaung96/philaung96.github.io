@@ -9,7 +9,7 @@ const Home = () => {
             <main id='home-info'>
                 <h1>Phil Aung</h1>
                 <div id='ufo'></div>
-                <p>Full Stack Developer</p>
+                <p id='title'>Full Stack Developer</p>
                 <button id='projects-link'>
                     <Link to='/projects'>
                         <p>projects</p>

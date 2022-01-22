@@ -14,8 +14,9 @@
     margin: 0;
 }
 
-#home-info p {
+#title {
     margin: 0;
+    font-size: 18px;
 }
 
 #projects-link {
@@ -63,3 +64,32 @@
         opacity: 0;
     }
 }
+
+@media only screen and (min-width: 900px) {
+    #home-info h1 {
+        font-size: 45px;
+    }
+
+    #title {
+        font-size: 20px;
+    }
+
+    #ufo {
+        animation: ufo-move 13s ease-in-out infinite;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #home-info h1 {
+        font-size: 50px;
+    }
+
+    #title {
+        font-size: 22px;
+    }
+
+    #ufo {
+        animation: ufo-move 15s ease-in-out infinite;
+    }
+}
+
