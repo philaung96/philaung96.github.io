@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d2e5d23e.css",
+    "main.js": "/static/js/main.9e6b17ee.js",
+    "static/media/avatar.jpg": "/static/media/avatar.2b8e186e69a8d6c70398.jpg",
+    "static/media/ufo.png": "/static/media/ufo.3048b82b4c80ed4e0899.png",
+    "static/media/2048.png": "/static/media/2048.1e8b4adba2a5ade4e23d.png",
+    "static/media/rick-and-morty.png": "/static/media/rick-and-morty.9232b52072800f8ce3a1.png",
+    "static/media/todoList.png": "/static/media/todoList.176b247b3344a76c0f7d.png",
+    "index.html": "/index.html",
+    "main.d2e5d23e.css.map": "/static/css/main.d2e5d23e.css.map",
+    "main.9e6b17ee.js.map": "/static/js/main.9e6b17ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2e5d23e.css",
+    "static/js/main.9e6b17ee.js"
+  ]
+}
