@@ -11,7 +11,9 @@ const Header = (props) => {
             <nav>
                 <ul>
                     <Link to='/' element={<Home />}>
-                        <li>HOME</li>
+                        <li>
+                            <div id='logo'></div>
+                        </li>
                     </Link>
                     <Link to='/projects' element={<Projects />}>
                         <li>PROJECTS</li>
