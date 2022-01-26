@@ -50,7 +50,7 @@ nav {
 }
 
 #nav-link li {
-    margin: 5vh 0;
+    padding: 3vh 0;
     border-bottom: 1px solid white;
 }
 
@@ -60,6 +60,7 @@ nav {
 
 nav h2 {
     text-shadow: 0 2px darkgray;
+    margin: 0;
 }
 
 nav h2:hover {
@@ -101,7 +102,6 @@ nav h2:hover {
     }
 
     #nav-link h2 {
-        margin: 0;
         font-size: 20px;
     }
 

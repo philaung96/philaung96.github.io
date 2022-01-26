@@ -15,9 +15,24 @@
 }
 
 #title {
-    margin: 0;
     font-size: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto; 
+    animation: 
+    typing 5s infinite steps(30), .75s;
 }
+
+
+@keyframes typing {
+    0% { 
+        width: 0 
+    }
+    100% {
+        width: 100% 
+    }
+}
+
 
 #projects-link {
     position: relative;
