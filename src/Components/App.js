@@ -1,13 +1,17 @@
 import './App.css';
 import Body from './Body/Body';
-import Header from './Header/Header';
+import Logo from './Logo/Logo';
+import Nav from './Nav/Nav';
 
 function App() {
     
     return (
         <>
-            <Header />
-            <Body />
+            <Logo />
+            <main>
+                <Nav />
+                <Body />
+            </main>
         </>
     );
 }
