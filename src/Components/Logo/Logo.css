@@ -5,11 +5,11 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    position: fixed;
+    position: absolute;
+    margin: 20px;
     z-index: 2;
     top: 0;
     left: 0;
-    margin: 2%;
 }
 
 #logo:hover {
@@ -25,5 +25,13 @@
     }
     100% {
         transform: rotate(360deg);
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    #logo {
+        width: 70px;
+        height: 70px;
+        margin: 25px 50px;
     }
 }

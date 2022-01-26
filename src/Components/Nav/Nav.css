@@ -2,8 +2,11 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: end;
+    min-height: 90px;
     position: relative;
     z-index: 2;
+    width: 100vw;
+    border-bottom: 1px solid white;
 }
 
 #nav-toggle {
@@ -12,41 +15,97 @@ nav {
     color: white;
     width: 50px;
     height: 50px;
-    margin: 2%;
     border-radius: 10px;
+}
+
+#nav-toggle {
+    margin: 20px;
 }
 
 #nav-link {
     margin-top: 10vh;
     width: 100%;
-    height: 100vh;
-    animation: slide-down .5s linear;
-}
-
-@keyframes slide-down {
-    0% {
-        height: 0vh;
-        overflow: hidden;
-    }
-    50% {
-        height: 50vh;
-        overflow: hidden;
-    }
-    100% {
-        height: 200vh;
-    }
+    overflow: hidden;
+    animation: slide-down 3s linear;
 }
 
 #nav-link ul {
     list-style: none;
     text-align: center;
+    height: 100vh;
     padding: 0;
 }
 
+@keyframes slide-down {
+    0% {
+        height: 0vh;
+    }
+    50% {
+        height: 50vh;
+    }
+    100% {
+        height: 100vh;
+    }
+}
+
 #nav-link li {
+    margin: 5vh 0;
     border-bottom: 1px solid white;
+}
+
+#nav-link li:first-child {
+    border-top: 1px solid white;
+}
+
+nav h2 {
+    text-shadow: 0 2px darkgray;
 }
 
 nav h2:hover {
     text-decoration: underline;
+    text-underline-offset: 5px;
 }
+
+@media only screen and (min-width: 900px) {
+    nav {
+        border: none;
+    }
+    
+    #nav-toggle {
+        display: none;
+    }
+
+    #nav-link {
+        display: flex !important;
+        margin: 0;
+        animation: none;
+        justify-content: end;
+        border-bottom: 1px solid white;
+        opacity: 1;
+    }
+
+    #nav-link ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 50%;
+        height: 120px;
+        margin: 0;
+    }
+
+    #nav-link li {
+        margin: 0 2vw;
+        border: none;
+    }
+
+    #nav-link h2 {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    #nav-link li:first-child {
+        border: none;
+    }
+}
+

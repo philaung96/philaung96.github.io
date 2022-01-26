@@ -4,9 +4,9 @@ import Background from './Background/Background';
 
 const Home = () => {
     return (
-        <>
+        <div>
             <Background />
-            <main id='home-info'>
+            <div id='home-info'>
                 <h1>Phil Aung</h1>
                 <div id='ufo'></div>
                 <p id='title'>Full Stack Developer</p>
@@ -15,8 +15,8 @@ const Home = () => {
                         <p>projects</p>
                     </Link>
                 </button>
-            </main>
-        </>
+            </div>
+        </div>
     );
 };
 
