@@ -7,11 +7,11 @@ function App() {
     
     return (
         <>
-            <Logo />
             <main>
                 <Nav />
                 <Body />
             </main>
+            <Logo />
         </>
     );
 }

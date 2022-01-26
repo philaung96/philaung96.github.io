@@ -32,18 +32,42 @@ const Nav = () => {
             </button>
             <div id='nav-link' style={{ display: props.display }}>
                 <ul>
-                    <Link to='/' element={<Home />}>
-                        <li>HOME</li>
-                    </Link>
-                    <Link to='/projects' element={<Projects />}>
-                        <li>PROJECTS</li>
-                    </Link>
-                    <Link to='/about' element={<About />}>
-                        <li>ABOUT</li>
-                    </Link>
-                    <Link to='/resume' element={<Resume />}>
-                        <li>RESUME</li>
-                    </Link>
+                    <li>
+                        <Link
+                            to='/'
+                            element={<Home />}
+                            onClick={() => toggleIcon(props.icon)}
+                        >
+                            <h2>HOME</h2>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to='/projects'
+                            element={<Projects />}
+                            onClick={() => toggleIcon(props.icon)}
+                        >
+                            <h2>PROJECTS</h2>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to='/about'
+                            element={<About />}
+                            onClick={() => toggleIcon(props.icon)}
+                        >
+                            <h2>ABOUT</h2>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to='/resume'
+                            element={<Resume />}
+                            onClick={() => toggleIcon(props.icon)}
+                        >
+                            <h2>RESUME</h2>
+                        </Link>
+                    </li>
                 </ul>
             </div>
         </nav>

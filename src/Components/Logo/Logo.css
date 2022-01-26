@@ -5,6 +5,11 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    margin: 2%;
 }
 
 #logo:hover {
