@@ -4,10 +4,12 @@ nav {
     flex-direction: column;
     align-items: end;
     min-height: 90px;
-    position: relative;
-    z-index: 2;
+    position: fixed;
+    overflow: hidden;
+    z-index: 5;
     width: 100vw;
-    border-bottom: 1px solid white;
+    top: 0;
+    background: linear-gradient(135deg, #000011 0%, #02021a 74%);
 }
 
 #nav-toggle {
@@ -74,6 +76,7 @@ nav h2:hover {
 @media only screen and (min-width: 900px) {
     nav {
         border: none;
+        position: relative;
     }
     
     #nav-toggle {
@@ -85,7 +88,6 @@ nav h2:hover {
         margin: 0;
         animation: none;
         justify-content: end;
-        border-bottom: 1px solid white;
         opacity: 1;
     }
 

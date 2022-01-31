@@ -1,5 +1,5 @@
 #about {
-    margin: 10vh 5vh;
+    margin: 110px 10%;
 }
 
 #about h2{
@@ -10,7 +10,7 @@
 
 #about article {
     border-bottom: 1px solid white;
-    padding: 2vh 0;
+    padding: 3% 0;
 }
 
 #about p {
@@ -47,46 +47,32 @@
     );
 }
 
-@media only screen and (min-width: 700px) {
-    #about {
-        margin: 10vh 7vh;
-    }
-}
-
 @media only screen and (min-width: 900px) {
     #about {
         display: grid;
         grid-template-columns: 3fr 2fr;
-        margin: 10vh 0;
-        gap: 2vh;
+        margin: 5%;
+        gap: 2%;
     }
 
     #about section article {
-        padding: 3vh 5vh;
+        padding: 3% 5%;
     }
 
     #about aside article{
-        margin: 0 3vh 3vh 3vh;
+        margin: 0 3% 3% 3%;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     #about {
-        gap: 5vh;
-    }
-
-    #about section article {
-        padding: 3vh 10vh;
+        gap: 5%;
     }
 }
 
 @media only screen and (min-width: 1400px) {
     #about {
-        gap: 10vh;
-    }
-
-    #about section article {
-        padding: 3vh 15vh;
+        gap: 10%;
     }
 }
 

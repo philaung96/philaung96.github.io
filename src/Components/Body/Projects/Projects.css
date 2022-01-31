@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 5vh 0;
+    margin: 110px 0;
 }
 
 #projects h2 {
@@ -10,11 +10,11 @@
 }
 
 #projects h3 {
-    margin: 5vh 0;
+    margin: 5% 0;
 }
 
 .project {
-    padding-bottom: 5vh;
+    padding-bottom: 5%;
     z-index: 2;
     border-bottom: 1px solid white;
 }
@@ -22,7 +22,7 @@
 
 .project button {
     display: block;
-    margin: 4vh auto 0 auto;
+    margin: 4% auto 0 auto;
     padding: 7px;
     background-color: #020231;
     border: 2px solid white;
@@ -78,13 +78,19 @@
     }
 
     .project article {
-        margin: 0 10vh;
+        margin: 0 10%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    #projects {
+        margin: 10px 0;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .project {
-        padding: 0 5vh 7vh 5vh;
+        padding: 0 5% 7% 5%;
     }
 
     .project-img {
@@ -93,14 +99,14 @@
     }
 
     .project article {
-        margin: 0 15vh;
+        margin: 0 15%;
     }
 }
 
 
 @media only screen and (min-width: 1440px) {
     .project {
-        padding: 0 10vh 7vh 10vh;
+        padding: 0 10% 7% 10%;
     }
 
     .project-img {
@@ -111,6 +117,6 @@
 
 @media only screen and (min-width: 1600px) {
     .project {
-        padding: 0 15vh 7vh 15vh;
+        padding: 0 15% 7% 15%;
     }
 }

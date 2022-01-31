@@ -5,6 +5,7 @@ import Home from '../Body/Home/Home';
 import About from '../Body/About/About';
 import Projects from '../Body/Projects/Projects';
 import Resume from '../Body/Resume/Resume';
+import Logo from './Logo/Logo';
 
 const Nav = () => {
     const [props, setIcon] = useState({
@@ -27,6 +28,7 @@ const Nav = () => {
 
     return (
         <nav>
+            <Logo />
             <button id='nav-toggle' onClick={() => toggleIcon(props.icon)}>
                 <i class={props.icon}></i>
             </button>
