@@ -9,7 +9,6 @@ nav {
     z-index: 5;
     width: 100vw;
     top: 0;
-    background: linear-gradient(135deg, #000011 0%, #02021a 74%);
 }
 
 #nav-toggle {
@@ -29,10 +28,11 @@ nav {
 }
 
 #nav-link {
-    margin-top: 10vh;
+    padding-top: 10vh;
     width: 100%;
     overflow: hidden;
     animation: slide-down 3s linear;
+    background: linear-gradient(135deg, #000011 0%, #02021a 74%);
 }
 
 #nav-link ul {
@@ -85,10 +85,11 @@ nav h2:hover {
 
     #nav-link {
         display: flex !important;
-        margin: 0;
+        padding: 0;
         animation: none;
         justify-content: end;
         opacity: 1;
+        background: transparent;
     }
 
     #nav-link ul {
