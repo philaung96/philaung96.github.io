@@ -20,7 +20,7 @@
     white-space: nowrap;
     margin: 0 auto; 
     animation: 
-    typing 5s infinite steps(30), .75s;
+    typing 5s infinite steps(50), .75s;
 }
 
 
@@ -81,6 +81,10 @@
 }
 
 @media only screen and (min-width: 900px) {
+    #title {
+    animation: 
+    typing 7s infinite steps(75), .75s;
+    }
     #home-info h1 {
         font-size: 45px;
     }
@@ -95,6 +99,10 @@
 }
 
 @media only screen and (min-width: 1400px) {
+    #title {
+    animation: 
+    typing 10s infinite steps(100), .75s;
+    }
     #home-info h1 {
         font-size: 50px;
     }
